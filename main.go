@@ -196,7 +196,7 @@ func writeServFail(w dns.ResponseWriter, req *dns.Msg) {
 }
 
 func handleDNS(w dns.ResponseWriter, r *dns.Msg) {
-	primaryDNS := "119.29.29.29:53"
+	primaryDNS := "180.76.76.76:53"
 	fallbackDNS := "1.1.1.1:53"
 
 	// Check cache first
